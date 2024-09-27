@@ -1,0 +1,40 @@
+# ローカルのTerraform設定ファイル
+.terraform/*
+
+# .tfstateファイル
+*.tfstate
+*.tfstate.*
+
+# クラッシュログファイル
+crash.log
+crash.*.log
+
+# 機密情報を含む可能性のあるファイルを除外
+*.tfvars
+*.tfvars.json
+
+# CLIの設定ファイル
+.terraformrc
+terraform.rc
+
+# オーバーライドファイル
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 設定ファイル
+.terraformrc
+terraform.rc
+
+# ログファイル
+*.log
+
+# テストファイル
+*_test.tf
+
+# バックアップファイル
+*.backup
+
+# 一時ファイル
+*.tmp
