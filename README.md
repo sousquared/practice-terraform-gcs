@@ -4,6 +4,10 @@ https://cloud.google.com/load-balancing/docs/https/ext-load-balancer-backend-buc
 
 # Terraform
 
+## 準備
+プロジェクトIDを設定  
+`terraform/variables.tf`の`project_id`を編集して設定する.
+
 ## 実行
 ```
 cd terraform
