@@ -1,5 +1,5 @@
 # ローカルのTerraform設定ファイル
-.terraform/*
+.terraform/
 
 # .tfstateファイル
 *.tfstate

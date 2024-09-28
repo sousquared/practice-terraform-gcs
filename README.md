@@ -2,6 +2,34 @@
 main.tfではなくいくつかのファイルにリファクタリングしている.  
 https://cloud.google.com/load-balancing/docs/https/ext-load-balancer-backend-buckets?hl=ja
 
+# Terraform
+
+## 実行
+```
+cd terraform
+terraform init
+terraform plan -- 実行前の確認用
+terraform apply
+```
+
+## IPアドレスの確認
+```
+terraform output
+```
+
+## ブラウザでアクセス
+```
+http://<IPアドレス>/love-to-fetch/two-dogs.jpg
+http://<IPアドレス>/never-fetch/three-cats.jpg
+```
+
+
+## クリーンアップ
+```
+terraform destroy
+```
+
+
 ## システムアーキテクチャ
 
 ```mermaid
@@ -19,18 +47,7 @@ end
 システムアーキテクチャ図 by diagram.py
 ![システムアーキテクチャ図](./system-architecture.png)
 
-# Terraform
 
-## 実行
-```
-# terraform plan -- 実行前の確認用
-terraform apply
-```
-
-## クリーンアップ
-```
-terraform destory
-```
 
 # rye
 

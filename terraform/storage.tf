@@ -20,14 +20,14 @@ resource "google_storage_bucket" "bucket_2" {
 
 resource "google_storage_bucket_object" "cat_image" {
   name         = "never-fetch/three-cats.jpg"
-  source       = "images/three-cats.jpg"
+  source       = "../images/three-cats.jpg"
   content_type = "image/jpeg"
   bucket       = google_storage_bucket.bucket_1.name
 }
 
 resource "google_storage_bucket_object" "dog_image" {
   name         = "love-to-fetch/two-dogs.jpg"
-  source       = "images/two-dogs.jpg"
+  source       = "../images/two-dogs.jpg"
   content_type = "image/jpeg"
   bucket       = google_storage_bucket.bucket_2.name
 }
