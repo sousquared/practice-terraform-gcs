@@ -38,3 +38,27 @@ terraform.rc
 
 # 一時ファイル
 *.tmp
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境
+.venv/
+env/
+ENV/
+
+# IDEとエディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# その他
+*.log
+.env
