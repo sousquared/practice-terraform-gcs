@@ -19,6 +19,19 @@ end
 システムアーキテクチャ図 by diagram.py
 ![システムアーキテクチャ図](./system-architecture.png)
 
+# Terraform
+
+## 実行
+```
+# terraform plan -- 実行前の確認用
+terraform apply
+```
+
+## クリーンアップ
+```
+terraform destory
+```
+
 # rye
 
 ## 仮想環境のアクティベート
